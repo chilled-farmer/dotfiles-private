@@ -1,7 +1,0 @@
-
-
-shell:
-    program: /bin/bash
-    args:
-      - --login
-
