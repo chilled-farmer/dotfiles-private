@@ -18,3 +18,4 @@ if [ -r ~/.bashrc ]; then
 fi
 
 export XDG_CONFIG_HOME="$HOME"/.config
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"

@@ -1,11 +1,13 @@
 return {
 	"nvim-lua/popup.nvim",
-{
+   { "windwp/nvim-ts-autotag", dependencies = "nvim-treesitter" },
+	{
     "nvim-neo-tree/neo-tree.nvim",
     branch = "v3.x",
     dependencies = {
       "nvim-lua/plenary.nvim",
-      "nvim-tree/nvim-web-devicons",  "MunifTanjim/nui.nvim",
+      "nvim-tree/nvim-web-devicons",
+  	"MunifTanjim/nui.nvim",
     },
 
  keys = {
@@ -14,12 +16,19 @@ return {
 config = function()
 	require("neo-tree").setup({
 	window ={
-		position="float"
+		position="left"
 	}
 
 	})
 end
-}
+},
 
-   
+       {
+        "christoomey/vim-tmux-navigator",
+        lazy = false,
+    },
+    {
+        "sbdchd/neoformat",
+    },
+
 }

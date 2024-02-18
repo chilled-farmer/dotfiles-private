@@ -1,0 +1,2 @@
+-- Enable Neoformat on save
+
