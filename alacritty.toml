@@ -1,15 +1,14 @@
 
-import = ["/Users/chilledfarmer/.config/alacritty/themes/themes/gruvbox_dark.toml"]
+import = ["~/.config/alacritty/themes/themes/gruvbox_dark.toml"]
 
 [font]
-size = 25
+size = 11
 
 [font.normal]
 family = "UbuntuMono Nerd Font"
 
 [window]
 decorations = "none"
-startup_mode = "Fullscreen"
 
 [window.padding]
 x = 7
